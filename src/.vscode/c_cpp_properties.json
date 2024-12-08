@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/asrlab/sample_code_agv/install/wiimote/include/**",
+        "/home/asrlab/sample_code_agv/install/wiimote_msgs/include/**",
+        "/home/asrlab/sample_code_agv/install/spacenav/include/**",
+        "/home/asrlab/sample_code_agv/install/joy/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/asrlab/sample_code_agv/src/joystick_drivers/joy/include/**",
+        "/home/asrlab/sample_code_agv/src/joystick_drivers/spacenav/include/**",
+        "/home/asrlab/sample_code_agv/src/joystick_drivers/wiimote/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

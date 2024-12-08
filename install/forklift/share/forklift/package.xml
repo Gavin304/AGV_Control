@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>forklift</name>
+  <version>0.0.0</version>
+  <description>A package to control and operate a forklift in ROS 2.</description>
+  <maintainer email="mauro@todo.todo">mauro</maintainer>
+  <license>MIT</license> <!-- Replace with the appropriate license -->
+
+  <!-- Test dependencies -->
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <!-- Runtime dependencies -->
+  <exec_depend>rclpy</exec_depend> <!-- ROS 2 Python client library -->
+  <exec_depend>geometry_msgs</exec_depend> <!-- If your package uses geometry_msgs -->
+  <exec_depend>std_msgs</exec_depend> <!-- If your package uses standard message types -->
+
+  <export>
+    <build_type>ament_python</build_type>
+    <exec_depend>ros2launch</exec_depend> <!-- Required for launch files -->
+  </export>
+</package>

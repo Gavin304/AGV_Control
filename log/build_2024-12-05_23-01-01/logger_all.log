@@ -1,0 +1,713 @@
+[0.080s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.080s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71ea96c70160>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71ea96d6c760>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71ea96d6c760>>, mixin_verb=('build',))
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.234s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/asrlab/sample_code_agv'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/forklift) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/forklift) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/forklift) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/forklift) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/forklift) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/forklift) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/forklift) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/forklift) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/forklift) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'src/forklift' with type 'ros.ament_python' and name 'forklift'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/joy' with type 'ros.ament_cmake' and name 'joy'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/joy_linux' with type 'ros.ament_cmake' and name 'joy_linux'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) ignored
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/sdl2_vendor' with type 'ros.ament_cmake' and name 'sdl2_vendor'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/spacenav' with type 'ros.ament_cmake' and name 'spacenav'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/wiimote' with type 'ros.ament_cmake' and name 'wiimote'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/wiimote_msgs) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/wiimote_msgs' with type 'ros.ament_cmake' and name 'wiimote_msgs'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_ros2' with type 'ros.ament_python' and name 'joystick_ros2'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/js2fork) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/js2fork) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/js2fork) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/js2fork) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/js2fork) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/js2fork) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/js2fork) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/js2fork) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/js2fork) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/js2fork' with type 'ros.ament_python' and name 'js2fork'
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.277s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/asrlab/sample_code_agv/install
+[0.278s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 377 installed packages in /opt/ros/humble
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.314s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'joy' is in: /home/asrlab/sample_code_agv/install/joy, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding joy
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'forklift' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'forklift' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'forklift' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'forklift' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'forklift' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'forklift' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'forklift' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'forklift' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'forklift' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'forklift' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asrlab/sample_code_agv/build/forklift', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asrlab/sample_code_agv/install/forklift', 'merge_install': False, 'path': '/home/asrlab/sample_code_agv/src/forklift', 'symlink_install': False, 'test_result_base': None}
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_target' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_clean_cache' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_clean_first' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_force_configure' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'ament_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'catkin_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.315s] DEBUG:colcon.colcon_core.verb:Building package 'joy_linux' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asrlab/sample_code_agv/build/joy_linux', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asrlab/sample_code_agv/install/joy_linux', 'merge_install': False, 'path': '/home/asrlab/sample_code_agv/src/joystick_drivers/joy_linux', 'symlink_install': False, 'test_result_base': None}
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'cmake_target' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.315s] DEBUG:colcon.colcon_core.verb:Building package 'joystick_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asrlab/sample_code_agv/build/joystick_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asrlab/sample_code_agv/install/joystick_ros2', 'merge_install': False, 'path': '/home/asrlab/sample_code_agv/src/joystick_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'js2fork' build argument 'cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'js2fork' build argument 'cmake_target' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'js2fork' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'js2fork' build argument 'cmake_clean_cache' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'js2fork' build argument 'cmake_clean_first' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'js2fork' build argument 'cmake_force_configure' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'js2fork' build argument 'ament_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'js2fork' build argument 'catkin_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'js2fork' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.316s] DEBUG:colcon.colcon_core.verb:Building package 'js2fork' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asrlab/sample_code_agv/build/js2fork', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asrlab/sample_code_agv/install/js2fork', 'merge_install': False, 'path': '/home/asrlab/sample_code_agv/src/js2fork', 'symlink_install': False, 'test_result_base': None}
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_target' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_clean_first' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_force_configure' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'ament_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.316s] DEBUG:colcon.colcon_core.verb:Building package 'sdl2_vendor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asrlab/sample_code_agv/build/sdl2_vendor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asrlab/sample_code_agv/install/sdl2_vendor', 'merge_install': False, 'path': '/home/asrlab/sample_code_agv/src/joystick_drivers/sdl2_vendor', 'symlink_install': False, 'test_result_base': None}
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_target' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_clean_first' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_force_configure' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'ament_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.317s] DEBUG:colcon.colcon_core.verb:Building package 'spacenav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asrlab/sample_code_agv/build/spacenav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asrlab/sample_code_agv/install/spacenav', 'merge_install': False, 'path': '/home/asrlab/sample_code_agv/src/joystick_drivers/spacenav', 'symlink_install': False, 'test_result_base': None}
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_target' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.317s] DEBUG:colcon.colcon_core.verb:Building package 'wiimote_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asrlab/sample_code_agv/build/wiimote_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asrlab/sample_code_agv/install/wiimote_msgs', 'merge_install': False, 'path': '/home/asrlab/sample_code_agv/src/joystick_drivers/wiimote_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_first' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_force_configure' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'ament_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.318s] DEBUG:colcon.colcon_core.verb:Building package 'joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asrlab/sample_code_agv/build/joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asrlab/sample_code_agv/install/joy', 'merge_install': False, 'path': '/home/asrlab/sample_code_agv/src/joystick_drivers/joy', 'symlink_install': False, 'test_result_base': None}
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_target' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_clean_cache' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_clean_first' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_force_configure' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'ament_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'catkin_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.318s] DEBUG:colcon.colcon_core.verb:Building package 'wiimote' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asrlab/sample_code_agv/build/wiimote', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asrlab/sample_code_agv/install/wiimote', 'merge_install': False, 'path': '/home/asrlab/sample_code_agv/src/joystick_drivers/wiimote', 'symlink_install': False, 'test_result_base': None}
+[0.318s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.319s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.319s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asrlab/sample_code_agv/src/joystick_drivers/sdl2_vendor' with build type 'ament_cmake'
+[0.319s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asrlab/sample_code_agv/src/joystick_drivers/sdl2_vendor'
+[0.321s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.323s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asrlab/sample_code_agv/src/joystick_drivers/wiimote_msgs' with build type 'ament_cmake'
+[0.324s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asrlab/sample_code_agv/src/joystick_drivers/wiimote_msgs'
+[0.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.327s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/asrlab/sample_code_agv/src/forklift' with build type 'ament_python'
+[0.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('forklift', 'ament_prefix_path')
+[0.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/forklift/share/forklift/hook/ament_prefix_path.ps1'
+[0.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/forklift/share/forklift/hook/ament_prefix_path.dsv'
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/forklift/share/forklift/hook/ament_prefix_path.sh'
+[0.328s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.328s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.331s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asrlab/sample_code_agv/src/joystick_drivers/joy_linux' with build type 'ament_cmake'
+[0.331s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asrlab/sample_code_agv/src/joystick_drivers/joy_linux'
+[0.331s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.331s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.333s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/asrlab/sample_code_agv/src/joystick_ros2' with build type 'ament_python'
+[0.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_ros2', 'ament_prefix_path')
+[0.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/joystick_ros2/share/joystick_ros2/hook/ament_prefix_path.ps1'
+[0.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/joystick_ros2/share/joystick_ros2/hook/ament_prefix_path.dsv'
+[0.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/joystick_ros2/share/joystick_ros2/hook/ament_prefix_path.sh'
+[0.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.337s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/asrlab/sample_code_agv/src/js2fork' with build type 'ament_python'
+[0.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('js2fork', 'ament_prefix_path')
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/js2fork/share/js2fork/hook/ament_prefix_path.ps1'
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/js2fork/share/js2fork/hook/ament_prefix_path.dsv'
+[0.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/js2fork/share/js2fork/hook/ament_prefix_path.sh'
+[0.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.340s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asrlab/sample_code_agv/src/joystick_drivers/spacenav' with build type 'ament_cmake'
+[0.341s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asrlab/sample_code_agv/src/joystick_drivers/spacenav'
+[0.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.341s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asrlab/sample_code_agv/build/sdl2_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --build /home/asrlab/sample_code_agv/build/sdl2_vendor -- -j20 -l20
+[0.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asrlab/sample_code_agv/build/wiimote_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --build /home/asrlab/sample_code_agv/build/wiimote_msgs -- -j20 -l20
+[0.575s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/asrlab/sample_code_agv/src/forklift'
+[0.575s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.576s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asrlab/sample_code_agv/build/joy_linux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --build /home/asrlab/sample_code_agv/build/joy_linux -- -j20 -l20
+[0.800s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'joystick_ros2' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.800s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/asrlab/sample_code_agv/src/joystick_ros2'
+[0.800s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.800s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.021s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/asrlab/sample_code_agv/src/js2fork'
+[1.021s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.021s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asrlab/sample_code_agv/build/spacenav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --build /home/asrlab/sample_code_agv/build/spacenav -- -j20 -l20
+[1.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asrlab/sample_code_agv/build/sdl2_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --build /home/asrlab/sample_code_agv/build/sdl2_vendor -- -j20 -l20
+[1.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asrlab/sample_code_agv/build/joy_linux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --build /home/asrlab/sample_code_agv/build/joy_linux -- -j20 -l20
+[1.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asrlab/sample_code_agv/build/wiimote_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --build /home/asrlab/sample_code_agv/build/wiimote_msgs -- -j20 -l20
+[1.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asrlab/sample_code_agv/build/sdl2_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --install /home/asrlab/sample_code_agv/build/sdl2_vendor
+[1.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asrlab/sample_code_agv/build/joy_linux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --install /home/asrlab/sample_code_agv/build/joy_linux
+[1.055s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sdl2_vendor)
+[1.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asrlab/sample_code_agv/build/sdl2_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --install /home/asrlab/sample_code_agv/build/sdl2_vendor
+[1.058s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/sdl2_vendor' for CMake module files
+[1.058s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/sdl2_vendor' for CMake config files
+[1.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdl2_vendor', 'cmake_prefix_path')
+[1.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.ps1'
+[1.059s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.dsv'
+[1.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.sh'
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/sdl2_vendor/bin'
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/sdl2_vendor/lib/pkgconfig/sdl2_vendor.pc'
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/sdl2_vendor/lib/python3.10/site-packages'
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/sdl2_vendor/bin'
+[1.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/sdl2_vendor/share/sdl2_vendor/package.ps1'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asrlab/sample_code_agv/install/sdl2_vendor/share/sdl2_vendor/package.dsv'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/sdl2_vendor/share/sdl2_vendor/package.sh'
+[1.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/sdl2_vendor/share/sdl2_vendor/package.bash'
+[1.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/sdl2_vendor/share/sdl2_vendor/package.zsh'
+[1.063s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asrlab/sample_code_agv/install/sdl2_vendor/share/colcon-core/packages/sdl2_vendor)
+[1.064s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_linux)
+[1.064s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy_linux' for CMake module files
+[1.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asrlab/sample_code_agv/build/joy_linux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --install /home/asrlab/sample_code_agv/build/joy_linux
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy_linux' for CMake config files
+[1.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_linux', 'cmake_prefix_path')
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/joy_linux/share/joy_linux/hook/cmake_prefix_path.ps1'
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/joy_linux/share/joy_linux/hook/cmake_prefix_path.dsv'
+[1.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/joy_linux/share/joy_linux/hook/cmake_prefix_path.sh'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy_linux/lib'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy_linux/bin'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy_linux/lib/pkgconfig/joy_linux.pc'
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy_linux/lib/python3.10/site-packages'
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy_linux/bin'
+[1.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joy_linux/share/joy_linux/package.ps1'
+[1.067s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asrlab/sample_code_agv/install/joy_linux/share/joy_linux/package.dsv'
+[1.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joy_linux/share/joy_linux/package.sh'
+[1.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joy_linux/share/joy_linux/package.bash'
+[1.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joy_linux/share/joy_linux/package.zsh'
+[1.068s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asrlab/sample_code_agv/install/joy_linux/share/colcon-core/packages/joy_linux)
+[1.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asrlab/sample_code_agv/build/spacenav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --build /home/asrlab/sample_code_agv/build/spacenav -- -j20 -l20
+[1.076s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sdl2_vendor)
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/sdl2_vendor' for CMake module files
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/sdl2_vendor' for CMake config files
+[1.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdl2_vendor', 'cmake_prefix_path')
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.ps1'
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.dsv'
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.sh'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/sdl2_vendor/bin'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/sdl2_vendor/lib/pkgconfig/sdl2_vendor.pc'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/sdl2_vendor/lib/python3.10/site-packages'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/sdl2_vendor/bin'
+[1.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/sdl2_vendor/share/sdl2_vendor/package.ps1'
+[1.079s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asrlab/sample_code_agv/install/sdl2_vendor/share/sdl2_vendor/package.dsv'
+[1.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/sdl2_vendor/share/sdl2_vendor/package.sh'
+[1.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/sdl2_vendor/share/sdl2_vendor/package.bash'
+[1.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/sdl2_vendor/share/sdl2_vendor/package.zsh'
+[1.080s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asrlab/sample_code_agv/install/sdl2_vendor/share/colcon-core/packages/sdl2_vendor)
+[1.080s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asrlab/sample_code_agv/src/joystick_drivers/joy' with build type 'ament_cmake'
+[1.080s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asrlab/sample_code_agv/src/joystick_drivers/joy'
+[1.081s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.081s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.084s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_linux)
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy_linux' for CMake module files
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy_linux' for CMake config files
+[1.085s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_linux', 'cmake_prefix_path')
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/joy_linux/share/joy_linux/hook/cmake_prefix_path.ps1'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/joy_linux/share/joy_linux/hook/cmake_prefix_path.dsv'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/joy_linux/share/joy_linux/hook/cmake_prefix_path.sh'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy_linux/lib'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy_linux/bin'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy_linux/lib/pkgconfig/joy_linux.pc'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy_linux/lib/python3.10/site-packages'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy_linux/bin'
+[1.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joy_linux/share/joy_linux/package.ps1'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asrlab/sample_code_agv/install/joy_linux/share/joy_linux/package.dsv'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joy_linux/share/joy_linux/package.sh'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joy_linux/share/joy_linux/package.bash'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joy_linux/share/joy_linux/package.zsh'
+[1.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asrlab/sample_code_agv/install/joy_linux/share/colcon-core/packages/joy_linux)
+[1.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asrlab/sample_code_agv/build/spacenav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --install /home/asrlab/sample_code_agv/build/spacenav
+[1.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asrlab/sample_code_agv/build/wiimote_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --install /home/asrlab/sample_code_agv/build/wiimote_msgs
+[1.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asrlab/sample_code_agv/build/joy': CMAKE_PREFIX_PATH=/home/asrlab/sample_code_agv/install/sdl2_vendor:/home/asrlab/sample_code_agv/install/wiimote:/home/asrlab/sample_code_agv/install/wiimote_msgs:/home/asrlab/sample_code_agv/install/spacenav:/home/asrlab/sample_code_agv/install/joy:/home/asrlab/sample_code_agv/install/joy_linux:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --build /home/asrlab/sample_code_agv/build/joy -- -j20 -l20
+[1.098s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spacenav)
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/spacenav' for CMake module files
+[1.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asrlab/sample_code_agv/build/spacenav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --install /home/asrlab/sample_code_agv/build/spacenav
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/spacenav' for CMake config files
+[1.102s] Level 1:colcon.colcon_core.shell:create_environment_hook('spacenav', 'cmake_prefix_path')
+[1.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/hook/cmake_prefix_path.ps1'
+[1.103s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/hook/cmake_prefix_path.dsv'
+[1.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/hook/cmake_prefix_path.sh'
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/spacenav/lib'
+[1.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('spacenav', 'ld_library_path_lib')
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/hook/ld_library_path_lib.ps1'
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/hook/ld_library_path_lib.dsv'
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/hook/ld_library_path_lib.sh'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/spacenav/bin'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/spacenav/lib/pkgconfig/spacenav.pc'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/spacenav/lib/python3.10/site-packages'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/spacenav/bin'
+[1.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/package.ps1'
+[1.106s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/package.dsv'
+[1.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/package.sh'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/package.bash'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/package.zsh'
+[1.107s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asrlab/sample_code_agv/install/spacenav/share/colcon-core/packages/spacenav)
+[1.125s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spacenav)
+[1.125s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/spacenav' for CMake module files
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/spacenav' for CMake config files
+[1.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('spacenav', 'cmake_prefix_path')
+[1.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/hook/cmake_prefix_path.ps1'
+[1.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/hook/cmake_prefix_path.dsv'
+[1.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/hook/cmake_prefix_path.sh'
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/spacenav/lib'
+[1.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('spacenav', 'ld_library_path_lib')
+[1.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/hook/ld_library_path_lib.ps1'
+[1.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/hook/ld_library_path_lib.dsv'
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/hook/ld_library_path_lib.sh'
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/spacenav/bin'
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/spacenav/lib/pkgconfig/spacenav.pc'
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/spacenav/lib/python3.10/site-packages'
+[1.133s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/spacenav/bin'
+[1.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/package.ps1'
+[1.134s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/package.dsv'
+[1.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/package.sh'
+[1.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/package.bash'
+[1.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/spacenav/share/spacenav/package.zsh'
+[1.135s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asrlab/sample_code_agv/install/spacenav/share/colcon-core/packages/spacenav)
+[1.136s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wiimote_msgs)
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote_msgs' for CMake module files
+[1.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asrlab/sample_code_agv/build/wiimote_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --install /home/asrlab/sample_code_agv/build/wiimote_msgs
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote_msgs' for CMake config files
+[1.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('wiimote_msgs', 'cmake_prefix_path')
+[1.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/hook/cmake_prefix_path.ps1'
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/hook/cmake_prefix_path.dsv'
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/hook/cmake_prefix_path.sh'
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote_msgs/lib'
+[1.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('wiimote_msgs', 'ld_library_path_lib')
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/hook/ld_library_path_lib.ps1'
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/hook/ld_library_path_lib.dsv'
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/hook/ld_library_path_lib.sh'
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote_msgs/bin'
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote_msgs/lib/pkgconfig/wiimote_msgs.pc'
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote_msgs/lib/python3.10/site-packages'
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote_msgs/bin'
+[1.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/package.ps1'
+[1.142s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/package.dsv'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/package.sh'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/package.bash'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/package.zsh'
+[1.144s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asrlab/sample_code_agv/install/wiimote_msgs/share/colcon-core/packages/wiimote_msgs)
+[1.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asrlab/sample_code_agv/build/joy' returned '0': CMAKE_PREFIX_PATH=/home/asrlab/sample_code_agv/install/sdl2_vendor:/home/asrlab/sample_code_agv/install/wiimote:/home/asrlab/sample_code_agv/install/wiimote_msgs:/home/asrlab/sample_code_agv/install/spacenav:/home/asrlab/sample_code_agv/install/joy:/home/asrlab/sample_code_agv/install/joy_linux:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --build /home/asrlab/sample_code_agv/build/joy -- -j20 -l20
+[1.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asrlab/sample_code_agv/build/joy': CMAKE_PREFIX_PATH=/home/asrlab/sample_code_agv/install/sdl2_vendor:/home/asrlab/sample_code_agv/install/wiimote:/home/asrlab/sample_code_agv/install/wiimote_msgs:/home/asrlab/sample_code_agv/install/spacenav:/home/asrlab/sample_code_agv/install/joy:/home/asrlab/sample_code_agv/install/joy_linux:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --install /home/asrlab/sample_code_agv/build/joy
+[1.175s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy' for CMake module files
+[1.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asrlab/sample_code_agv/build/joy' returned '0': CMAKE_PREFIX_PATH=/home/asrlab/sample_code_agv/install/sdl2_vendor:/home/asrlab/sample_code_agv/install/wiimote:/home/asrlab/sample_code_agv/install/wiimote_msgs:/home/asrlab/sample_code_agv/install/spacenav:/home/asrlab/sample_code_agv/install/joy:/home/asrlab/sample_code_agv/install/joy_linux:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --install /home/asrlab/sample_code_agv/build/joy
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy' for CMake config files
+[1.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'cmake_prefix_path')
+[1.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/joy/share/joy/hook/cmake_prefix_path.ps1'
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/joy/share/joy/hook/cmake_prefix_path.dsv'
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/joy/share/joy/hook/cmake_prefix_path.sh'
+[1.179s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy/lib'
+[1.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'ld_library_path_lib')
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/joy/share/joy/hook/ld_library_path_lib.ps1'
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/joy/share/joy/hook/ld_library_path_lib.dsv'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/joy/share/joy/hook/ld_library_path_lib.sh'
+[1.181s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy/bin'
+[1.181s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy/lib/pkgconfig/joy.pc'
+[1.181s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy/lib/python3.10/site-packages'
+[1.181s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy/bin'
+[1.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joy/share/joy/package.ps1'
+[1.182s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asrlab/sample_code_agv/install/joy/share/joy/package.dsv'
+[1.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joy/share/joy/package.sh'
+[1.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joy/share/joy/package.bash'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joy/share/joy/package.zsh'
+[1.184s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asrlab/sample_code_agv/install/joy/share/colcon-core/packages/joy)
+[1.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wiimote_msgs)
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote_msgs' for CMake module files
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote_msgs' for CMake config files
+[1.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('wiimote_msgs', 'cmake_prefix_path')
+[1.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/hook/cmake_prefix_path.ps1'
+[1.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/hook/cmake_prefix_path.dsv'
+[1.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/hook/cmake_prefix_path.sh'
+[1.202s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote_msgs/lib'
+[1.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('wiimote_msgs', 'ld_library_path_lib')
+[1.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/hook/ld_library_path_lib.ps1'
+[1.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/hook/ld_library_path_lib.dsv'
+[1.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/hook/ld_library_path_lib.sh'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote_msgs/bin'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote_msgs/lib/pkgconfig/wiimote_msgs.pc'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote_msgs/lib/python3.10/site-packages'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote_msgs/bin'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/package.ps1'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/package.dsv'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/package.sh'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/package.bash'
+[1.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/wiimote_msgs/share/wiimote_msgs/package.zsh'
+[1.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asrlab/sample_code_agv/install/wiimote_msgs/share/colcon-core/packages/wiimote_msgs)
+[1.205s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asrlab/sample_code_agv/src/joystick_drivers/wiimote' with build type 'ament_cmake'
+[1.205s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asrlab/sample_code_agv/src/joystick_drivers/wiimote'
+[1.205s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.206s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.209s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy' for CMake module files
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy' for CMake config files
+[1.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'cmake_prefix_path')
+[1.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/joy/share/joy/hook/cmake_prefix_path.ps1'
+[1.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/joy/share/joy/hook/cmake_prefix_path.dsv'
+[1.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/joy/share/joy/hook/cmake_prefix_path.sh'
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy/lib'
+[1.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'ld_library_path_lib')
+[1.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/joy/share/joy/hook/ld_library_path_lib.ps1'
+[1.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/joy/share/joy/hook/ld_library_path_lib.dsv'
+[1.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/joy/share/joy/hook/ld_library_path_lib.sh'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy/bin'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy/lib/pkgconfig/joy.pc'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy/lib/python3.10/site-packages'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joy/bin'
+[1.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joy/share/joy/package.ps1'
+[1.212s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asrlab/sample_code_agv/install/joy/share/joy/package.dsv'
+[1.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joy/share/joy/package.sh'
+[1.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joy/share/joy/package.bash'
+[1.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joy/share/joy/package.zsh'
+[1.214s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asrlab/sample_code_agv/install/joy/share/colcon-core/packages/joy)
+[1.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asrlab/sample_code_agv/build/wiimote': CMAKE_PREFIX_PATH=/home/asrlab/sample_code_agv/install/wiimote_msgs:/home/asrlab/sample_code_agv/install/wiimote:/home/asrlab/sample_code_agv/install/spacenav:/home/asrlab/sample_code_agv/install/joy:/home/asrlab/sample_code_agv/install/sdl2_vendor:/home/asrlab/sample_code_agv/install/joy_linux:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble LD_LIBRARY_PATH=/home/asrlab/sample_code_agv/install/wiimote_msgs/lib:/home/asrlab/sample_code_agv/install/wiimote/lib:/home/asrlab/sample_code_agv/install/spacenav/lib:/home/asrlab/sample_code_agv/install/joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.5/lib64 /usr/bin/cmake --build /home/asrlab/sample_code_agv/build/wiimote -- -j20 -l20
+[1.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asrlab/sample_code_agv/build/wiimote' returned '0': CMAKE_PREFIX_PATH=/home/asrlab/sample_code_agv/install/wiimote_msgs:/home/asrlab/sample_code_agv/install/wiimote:/home/asrlab/sample_code_agv/install/spacenav:/home/asrlab/sample_code_agv/install/joy:/home/asrlab/sample_code_agv/install/sdl2_vendor:/home/asrlab/sample_code_agv/install/joy_linux:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble LD_LIBRARY_PATH=/home/asrlab/sample_code_agv/install/wiimote_msgs/lib:/home/asrlab/sample_code_agv/install/wiimote/lib:/home/asrlab/sample_code_agv/install/spacenav/lib:/home/asrlab/sample_code_agv/install/joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.5/lib64 /usr/bin/cmake --build /home/asrlab/sample_code_agv/build/wiimote -- -j20 -l20
+[1.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asrlab/sample_code_agv/build/wiimote': CMAKE_PREFIX_PATH=/home/asrlab/sample_code_agv/install/wiimote_msgs:/home/asrlab/sample_code_agv/install/wiimote:/home/asrlab/sample_code_agv/install/spacenav:/home/asrlab/sample_code_agv/install/joy:/home/asrlab/sample_code_agv/install/sdl2_vendor:/home/asrlab/sample_code_agv/install/joy_linux:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble LD_LIBRARY_PATH=/home/asrlab/sample_code_agv/install/wiimote_msgs/lib:/home/asrlab/sample_code_agv/install/wiimote/lib:/home/asrlab/sample_code_agv/install/spacenav/lib:/home/asrlab/sample_code_agv/install/joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.5/lib64 /usr/bin/cmake --install /home/asrlab/sample_code_agv/build/wiimote
+[1.293s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wiimote)
+[1.293s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote' for CMake module files
+[1.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asrlab/sample_code_agv/build/wiimote' returned '0': CMAKE_PREFIX_PATH=/home/asrlab/sample_code_agv/install/wiimote_msgs:/home/asrlab/sample_code_agv/install/wiimote:/home/asrlab/sample_code_agv/install/spacenav:/home/asrlab/sample_code_agv/install/joy:/home/asrlab/sample_code_agv/install/sdl2_vendor:/home/asrlab/sample_code_agv/install/joy_linux:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble LD_LIBRARY_PATH=/home/asrlab/sample_code_agv/install/wiimote_msgs/lib:/home/asrlab/sample_code_agv/install/wiimote/lib:/home/asrlab/sample_code_agv/install/spacenav/lib:/home/asrlab/sample_code_agv/install/joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.5/lib64 /usr/bin/cmake --install /home/asrlab/sample_code_agv/build/wiimote
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote' for CMake config files
+[1.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('wiimote', 'cmake_prefix_path')
+[1.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/hook/cmake_prefix_path.ps1'
+[1.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/hook/cmake_prefix_path.dsv'
+[1.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/hook/cmake_prefix_path.sh'
+[1.296s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote/lib'
+[1.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('wiimote', 'ld_library_path_lib')
+[1.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/hook/ld_library_path_lib.ps1'
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/hook/ld_library_path_lib.dsv'
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/hook/ld_library_path_lib.sh'
+[1.297s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote/bin'
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote/lib/pkgconfig/wiimote.pc'
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote/lib/python3.10/site-packages'
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote/bin'
+[1.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/package.ps1'
+[1.299s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/package.dsv'
+[1.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/package.sh'
+[1.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/package.bash'
+[1.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/package.zsh'
+[1.300s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asrlab/sample_code_agv/install/wiimote/share/colcon-core/packages/wiimote)
+[1.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asrlab/sample_code_agv/src/joystick_ros2': PYTHONPATH=/home/asrlab/sample_code_agv/build/joystick_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asrlab/sample_code_agv/install/joystick_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joystick_ros2 build --build-base /home/asrlab/sample_code_agv/build/joystick_ros2/build install --record /home/asrlab/sample_code_agv/build/joystick_ros2/install.log --install-scripts $base/lib/joystick_ros2 --single-version-externally-managed install_data
+[1.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wiimote)
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote' for CMake module files
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote' for CMake config files
+[1.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('wiimote', 'cmake_prefix_path')
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/hook/cmake_prefix_path.ps1'
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/hook/cmake_prefix_path.dsv'
+[1.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/hook/cmake_prefix_path.sh'
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote/lib'
+[1.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('wiimote', 'ld_library_path_lib')
+[1.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/hook/ld_library_path_lib.ps1'
+[1.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/hook/ld_library_path_lib.dsv'
+[1.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/hook/ld_library_path_lib.sh'
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote/bin'
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote/lib/pkgconfig/wiimote.pc'
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote/lib/python3.10/site-packages'
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/wiimote/bin'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/package.ps1'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/package.dsv'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/package.sh'
+[1.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/package.bash'
+[1.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/wiimote/share/wiimote/package.zsh'
+[1.329s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asrlab/sample_code_agv/install/wiimote/share/colcon-core/packages/wiimote)
+[1.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asrlab/sample_code_agv/src/js2fork': PYTHONPATH=/home/asrlab/sample_code_agv/build/js2fork/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asrlab/sample_code_agv/install/js2fork/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/js2fork build --build-base /home/asrlab/sample_code_agv/build/js2fork/build install --record /home/asrlab/sample_code_agv/build/js2fork/install.log --single-version-externally-managed install_data
+[1.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asrlab/sample_code_agv/src/forklift': PYTHONPATH=/home/asrlab/sample_code_agv/build/forklift/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asrlab/sample_code_agv/install/forklift/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/forklift build --build-base /home/asrlab/sample_code_agv/build/forklift/build install --record /home/asrlab/sample_code_agv/build/forklift/install.log --single-version-externally-managed install_data
+[1.568s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joystick_ros2' for CMake module files
+[1.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asrlab/sample_code_agv/src/joystick_ros2' returned '0': PYTHONPATH=/home/asrlab/sample_code_agv/build/joystick_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asrlab/sample_code_agv/install/joystick_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joystick_ros2 build --build-base /home/asrlab/sample_code_agv/build/joystick_ros2/build install --record /home/asrlab/sample_code_agv/build/joystick_ros2/install.log --install-scripts $base/lib/joystick_ros2 --single-version-externally-managed install_data
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joystick_ros2' for CMake config files
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joystick_ros2/lib'
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joystick_ros2/bin'
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joystick_ros2/lib/pkgconfig/joystick_ros2.pc'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joystick_ros2/lib/python3.10/site-packages'
+[1.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_ros2', 'pythonpath')
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/joystick_ros2/share/joystick_ros2/hook/pythonpath.ps1'
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/joystick_ros2/share/joystick_ros2/hook/pythonpath.dsv'
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/joystick_ros2/share/joystick_ros2/hook/pythonpath.sh'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/joystick_ros2/bin'
+[1.571s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joystick_ros2)
+[1.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joystick_ros2/share/joystick_ros2/package.ps1'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asrlab/sample_code_agv/install/joystick_ros2/share/joystick_ros2/package.dsv'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joystick_ros2/share/joystick_ros2/package.sh'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joystick_ros2/share/joystick_ros2/package.bash'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/joystick_ros2/share/joystick_ros2/package.zsh'
+[1.572s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asrlab/sample_code_agv/install/joystick_ros2/share/colcon-core/packages/joystick_ros2)
+[1.583s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/js2fork' for CMake module files
+[1.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asrlab/sample_code_agv/src/js2fork' returned '0': PYTHONPATH=/home/asrlab/sample_code_agv/build/js2fork/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asrlab/sample_code_agv/install/js2fork/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/js2fork build --build-base /home/asrlab/sample_code_agv/build/js2fork/build install --record /home/asrlab/sample_code_agv/build/js2fork/install.log --single-version-externally-managed install_data
+[1.583s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/js2fork' for CMake config files
+[1.584s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/js2fork/lib'
+[1.584s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/js2fork/bin'
+[1.584s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/js2fork/lib/pkgconfig/js2fork.pc'
+[1.584s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/js2fork/lib/python3.10/site-packages'
+[1.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('js2fork', 'pythonpath')
+[1.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/js2fork/share/js2fork/hook/pythonpath.ps1'
+[1.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/js2fork/share/js2fork/hook/pythonpath.dsv'
+[1.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/js2fork/share/js2fork/hook/pythonpath.sh'
+[1.585s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/js2fork/bin'
+[1.585s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(js2fork)
+[1.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/js2fork/share/js2fork/package.ps1'
+[1.586s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asrlab/sample_code_agv/install/js2fork/share/js2fork/package.dsv'
+[1.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/js2fork/share/js2fork/package.sh'
+[1.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/js2fork/share/js2fork/package.bash'
+[1.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/js2fork/share/js2fork/package.zsh'
+[1.587s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asrlab/sample_code_agv/install/js2fork/share/colcon-core/packages/js2fork)
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/forklift' for CMake module files
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/forklift' for CMake config files
+[1.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asrlab/sample_code_agv/src/forklift' returned '0': PYTHONPATH=/home/asrlab/sample_code_agv/build/forklift/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asrlab/sample_code_agv/install/forklift/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/forklift build --build-base /home/asrlab/sample_code_agv/build/forklift/build install --record /home/asrlab/sample_code_agv/build/forklift/install.log --single-version-externally-managed install_data
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/forklift/lib'
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/forklift/bin'
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/forklift/lib/pkgconfig/forklift.pc'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/forklift/lib/python3.10/site-packages'
+[1.589s] Level 1:colcon.colcon_core.shell:create_environment_hook('forklift', 'pythonpath')
+[1.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/forklift/share/forklift/hook/pythonpath.ps1'
+[1.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asrlab/sample_code_agv/install/forklift/share/forklift/hook/pythonpath.dsv'
+[1.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asrlab/sample_code_agv/install/forklift/share/forklift/hook/pythonpath.sh'
+[1.590s] Level 1:colcon.colcon_core.environment:checking '/home/asrlab/sample_code_agv/install/forklift/bin'
+[1.590s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(forklift)
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/forklift/share/forklift/package.ps1'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asrlab/sample_code_agv/install/forklift/share/forklift/package.dsv'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/forklift/share/forklift/package.sh'
+[1.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/forklift/share/forklift/package.bash'
+[1.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/asrlab/sample_code_agv/install/forklift/share/forklift/package.zsh'
+[1.591s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asrlab/sample_code_agv/install/forklift/share/colcon-core/packages/forklift)
+[1.591s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.591s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.592s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.592s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.595s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.595s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.595s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.603s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.603s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asrlab/sample_code_agv/install/local_setup.ps1'
+[1.604s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/asrlab/sample_code_agv/install/_local_setup_util_ps1.py'
+[1.605s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asrlab/sample_code_agv/install/setup.ps1'
+[1.606s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asrlab/sample_code_agv/install/local_setup.sh'
+[1.606s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/asrlab/sample_code_agv/install/_local_setup_util_sh.py'
+[1.607s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asrlab/sample_code_agv/install/setup.sh'
+[1.607s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asrlab/sample_code_agv/install/local_setup.bash'
+[1.608s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asrlab/sample_code_agv/install/setup.bash'
+[1.609s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asrlab/sample_code_agv/install/local_setup.zsh'
+[1.609s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asrlab/sample_code_agv/install/setup.zsh'

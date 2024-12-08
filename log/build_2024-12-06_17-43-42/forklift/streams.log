@@ -1,0 +1,24 @@
+[1.011s] Invoking command in '/home/asrlab/sample_code_agv/src/forklift': PYTHONPATH=/home/asrlab/sample_code_agv/build/forklift/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asrlab/sample_code_agv/install/forklift/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/forklift build --build-base /home/asrlab/sample_code_agv/build/forklift/build install --record /home/asrlab/sample_code_agv/build/forklift/install.log --single-version-externally-managed install_data
+[1.222s] running egg_info
+[1.223s] writing ../../build/forklift/forklift.egg-info/PKG-INFO
+[1.223s] writing dependency_links to ../../build/forklift/forklift.egg-info/dependency_links.txt
+[1.223s] writing entry points to ../../build/forklift/forklift.egg-info/entry_points.txt
+[1.223s] writing requirements to ../../build/forklift/forklift.egg-info/requires.txt
+[1.223s] writing top-level names to ../../build/forklift/forklift.egg-info/top_level.txt
+[1.224s] reading manifest file '../../build/forklift/forklift.egg-info/SOURCES.txt'
+[1.225s] writing manifest file '../../build/forklift/forklift.egg-info/SOURCES.txt'
+[1.225s] running build
+[1.225s] running build_py
+[1.225s] copying forklift/forklift.py -> /home/asrlab/sample_code_agv/build/forklift/build/lib/forklift
+[1.225s] running install
+[1.225s] running install_lib
+[1.226s] copying /home/asrlab/sample_code_agv/build/forklift/build/lib/forklift/forklift.py -> /home/asrlab/sample_code_agv/install/forklift/lib/python3.10/site-packages/forklift
+[1.226s] byte-compiling /home/asrlab/sample_code_agv/install/forklift/lib/python3.10/site-packages/forklift/forklift.py to forklift.cpython-310.pyc
+[1.228s] running install_data
+[1.228s] running install_egg_info
+[1.229s] removing '/home/asrlab/sample_code_agv/install/forklift/lib/python3.10/site-packages/forklift-0.0.0-py3.10.egg-info' (and everything under it)
+[1.229s] Copying ../../build/forklift/forklift.egg-info to /home/asrlab/sample_code_agv/install/forklift/lib/python3.10/site-packages/forklift-0.0.0-py3.10.egg-info
+[1.230s] running install_scripts
+[1.244s] Installing forklift script to /home/asrlab/sample_code_agv/install/forklift/lib/forklift
+[1.244s] writing list of installed files to '/home/asrlab/sample_code_agv/build/forklift/install.log'
+[1.266s] Invoked command in '/home/asrlab/sample_code_agv/src/forklift' returned '0': PYTHONPATH=/home/asrlab/sample_code_agv/build/forklift/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asrlab/sample_code_agv/install/forklift/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/forklift build --build-base /home/asrlab/sample_code_agv/build/forklift/build install --record /home/asrlab/sample_code_agv/build/forklift/install.log --single-version-externally-managed install_data

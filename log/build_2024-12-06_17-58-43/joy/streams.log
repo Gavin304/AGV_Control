@@ -1,0 +1,46 @@
+[0.017s] Invoking command in '/home/asrlab/sample_code_agv/build/joy': CMAKE_PREFIX_PATH=/home/asrlab/sample_code_agv/install/sdl2_vendor:/home/asrlab/sample_code_agv/install/wiimote:/home/asrlab/sample_code_agv/install/wiimote_msgs:/home/asrlab/sample_code_agv/install/spacenav:/home/asrlab/sample_code_agv/install/joy:/home/asrlab/sample_code_agv/install/joy_linux:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --build /home/asrlab/sample_code_agv/build/joy -- -j20 -l20
+[0.048s] [ 20%] Built target joy_enumerate_devices
+[0.049s] [ 60%] Built target game_controller_node
+[0.049s] [ 60%] Built target joy_node
+[0.050s] [ 80%] Built target joy
+[0.051s] [100%] Built target game_controller
+[0.064s] Invoked command in '/home/asrlab/sample_code_agv/build/joy' returned '0': CMAKE_PREFIX_PATH=/home/asrlab/sample_code_agv/install/sdl2_vendor:/home/asrlab/sample_code_agv/install/wiimote:/home/asrlab/sample_code_agv/install/wiimote_msgs:/home/asrlab/sample_code_agv/install/spacenav:/home/asrlab/sample_code_agv/install/joy:/home/asrlab/sample_code_agv/install/joy_linux:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --build /home/asrlab/sample_code_agv/build/joy -- -j20 -l20
+[0.087s] Invoking command in '/home/asrlab/sample_code_agv/build/joy': CMAKE_PREFIX_PATH=/home/asrlab/sample_code_agv/install/sdl2_vendor:/home/asrlab/sample_code_agv/install/wiimote:/home/asrlab/sample_code_agv/install/wiimote_msgs:/home/asrlab/sample_code_agv/install/spacenav:/home/asrlab/sample_code_agv/install/joy:/home/asrlab/sample_code_agv/install/joy_linux:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --install /home/asrlab/sample_code_agv/build/joy
+[0.093s] -- Install configuration: ""
+[0.093s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/lib/libjoy.so
+[0.093s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/lib/joy/joy_node
+[0.093s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/lib/libgame_controller.so
+[0.093s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/lib/joy/game_controller_node
+[0.094s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/lib/joy/joy_enumerate_devices
+[0.094s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/include/joy
+[0.094s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/include/joy/joy
+[0.094s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/include/joy/joy/game_controller.hpp
+[0.094s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/include/joy/joy/joy.hpp
+[0.094s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/config
+[0.094s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/config/joy-params.yaml
+[0.094s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/launch
+[0.094s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/launch/joy-launch.py
+[0.094s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/launch/joy-composed-launch.py
+[0.094s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/ament_index/resource_index/package_run_dependencies/joy
+[0.094s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/ament_index/resource_index/parent_prefix_path/joy
+[0.094s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/environment/ament_prefix_path.sh
+[0.094s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/environment/ament_prefix_path.dsv
+[0.094s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/environment/path.sh
+[0.095s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/environment/path.dsv
+[0.095s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/local_setup.bash
+[0.095s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/local_setup.sh
+[0.095s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/local_setup.zsh
+[0.095s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/local_setup.dsv
+[0.095s] -- Installing: /home/asrlab/sample_code_agv/install/joy/share/joy/package.dsv
+[0.095s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/ament_index/resource_index/packages/joy
+[0.095s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/ament_index/resource_index/rclcpp_components/joy
+[0.095s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/cmake/export_joyExport.cmake
+[0.095s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/cmake/export_joyExport-noconfig.cmake
+[0.095s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/cmake/export_game_controllerExport.cmake
+[0.095s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/cmake/export_game_controllerExport-noconfig.cmake
+[0.095s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/cmake/ament_cmake_export_targets-extras.cmake
+[0.095s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.095s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/cmake/joyConfig.cmake
+[0.095s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/cmake/joyConfig-version.cmake
+[0.095s] -- Up-to-date: /home/asrlab/sample_code_agv/install/joy/share/joy/package.xml
+[0.096s] Invoked command in '/home/asrlab/sample_code_agv/build/joy' returned '0': CMAKE_PREFIX_PATH=/home/asrlab/sample_code_agv/install/sdl2_vendor:/home/asrlab/sample_code_agv/install/wiimote:/home/asrlab/sample_code_agv/install/wiimote_msgs:/home/asrlab/sample_code_agv/install/spacenav:/home/asrlab/sample_code_agv/install/joy:/home/asrlab/sample_code_agv/install/joy_linux:/home/asrlab/sample_code_agv/install/js2fork:/home/asrlab/sample_code_agv/install/joystick_ros2:/home/asrlab/sample_code_agv/install/forklift:/opt/ros/humble /usr/bin/cmake --install /home/asrlab/sample_code_agv/build/joy
