@@ -1,0 +1,3 @@
+[console_scripts]
+tf_publisher_node = tf_publisher.tf_publisher:main
+

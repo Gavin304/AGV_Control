@@ -1,0 +1,350 @@
+[0.267s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.267s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x719983a66410>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x719983a65ae0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x719983a65ae0>>, mixin_verb=('build',))
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.675s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gavin/AGV_Control'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extension 'ignore'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extension 'ignore_ament_install'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extensions ['colcon_pkg']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extension 'colcon_pkg'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extensions ['colcon_meta']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extension 'colcon_meta'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extensions ['ros']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extension 'ros'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extensions ['cmake', 'python']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extension 'cmake'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extension 'python'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extensions ['python_setup_py']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch) by extension 'python_setup_py'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extension 'ignore'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extension 'ignore_ament_install'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extensions ['colcon_pkg']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extension 'colcon_pkg'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extensions ['colcon_meta']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extension 'colcon_meta'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extensions ['ros']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extension 'ros'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extensions ['cmake', 'python']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extension 'cmake'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extension 'python'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extensions ['python_setup_py']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(agv_launch/__pycache__) by extension 'python_setup_py'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lakibeam_ROS2_Driver-main) by extensions ['ignore', 'ignore_ament_install']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lakibeam_ROS2_Driver-main) by extension 'ignore'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lakibeam_ROS2_Driver-main) by extension 'ignore_ament_install'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lakibeam_ROS2_Driver-main) by extensions ['colcon_pkg']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lakibeam_ROS2_Driver-main) by extension 'colcon_pkg'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lakibeam_ROS2_Driver-main) by extensions ['colcon_meta']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lakibeam_ROS2_Driver-main) by extension 'colcon_meta'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lakibeam_ROS2_Driver-main) by extensions ['ros']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lakibeam_ROS2_Driver-main) by extension 'ros'
+[0.740s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Lakibeam_ROS2_Driver-main' with type 'ros.ament_cmake' and name 'lakibeam1'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/forklift) by extensions ['ignore', 'ignore_ament_install']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/forklift) by extension 'ignore'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/forklift) by extension 'ignore_ament_install'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/forklift) by extensions ['colcon_pkg']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/forklift) by extension 'colcon_pkg'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/forklift) by extensions ['colcon_meta']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/forklift) by extension 'colcon_meta'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/forklift) by extensions ['ros']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/forklift) by extension 'ros'
+[0.742s] DEBUG:colcon.colcon_core.package_identification:Package 'src/forklift' with type 'ros.ament_python' and name 'forklift'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ignore'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ignore_ament_install'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['colcon_pkg']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'colcon_pkg'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['colcon_meta']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'colcon_meta'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['ros']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ros'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['cmake', 'python']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'cmake'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'python'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['python_setup_py']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'python_setup_py'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'ignore'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'ignore_ament_install'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extensions ['colcon_pkg']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'colcon_pkg'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extensions ['colcon_meta']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'colcon_meta'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extensions ['ros']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'ros'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extensions ['cmake', 'python']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'cmake'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'python'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extensions ['python_setup_py']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'python_setup_py'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/js2fork) by extensions ['ignore', 'ignore_ament_install']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/js2fork) by extension 'ignore'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/js2fork) by extension 'ignore_ament_install'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/js2fork) by extensions ['colcon_pkg']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/js2fork) by extension 'colcon_pkg'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/js2fork) by extensions ['colcon_meta']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/js2fork) by extension 'colcon_meta'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/js2fork) by extensions ['ros']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/js2fork) by extension 'ros'
+[0.747s] DEBUG:colcon.colcon_core.package_identification:Package 'src/js2fork' with type 'ros.ament_python' and name 'js2fork'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_publisher) by extension 'ignore'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_publisher) by extension 'ignore_ament_install'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_publisher) by extensions ['colcon_pkg']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_publisher) by extension 'colcon_pkg'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_publisher) by extensions ['colcon_meta']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_publisher) by extension 'colcon_meta'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_publisher) by extensions ['ros']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_publisher) by extension 'ros'
+[0.749s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf_publisher' with type 'ros.ament_python' and name 'tf_publisher'
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.797s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.797s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.813s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/gavin/AGV_Control/install
+[0.820s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 132 installed packages in /home/gavin/install
+[0.824s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/gavin/minimec/install
+[0.825s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/gavin/minimec/src/install
+[0.829s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 394 installed packages in /opt/ros/humble
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'forklift' build argument 'cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'forklift' build argument 'cmake_target' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'forklift' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'forklift' build argument 'cmake_clean_cache' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'forklift' build argument 'cmake_clean_first' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'forklift' build argument 'cmake_force_configure' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'forklift' build argument 'ament_cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'forklift' build argument 'catkin_cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'forklift' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.972s] DEBUG:colcon.colcon_core.verb:Building package 'forklift' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gavin/AGV_Control/build/forklift', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gavin/AGV_Control/install/forklift', 'merge_install': False, 'path': '/home/gavin/AGV_Control/src/forklift', 'symlink_install': False, 'test_result_base': None}
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'js2fork' build argument 'cmake_args' from command line to 'None'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'js2fork' build argument 'cmake_target' from command line to 'None'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'js2fork' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'js2fork' build argument 'cmake_clean_cache' from command line to 'False'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'js2fork' build argument 'cmake_clean_first' from command line to 'False'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'js2fork' build argument 'cmake_force_configure' from command line to 'False'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'js2fork' build argument 'ament_cmake_args' from command line to 'None'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'js2fork' build argument 'catkin_cmake_args' from command line to 'None'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'js2fork' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.974s] DEBUG:colcon.colcon_core.verb:Building package 'js2fork' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gavin/AGV_Control/build/js2fork', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gavin/AGV_Control/install/js2fork', 'merge_install': False, 'path': '/home/gavin/AGV_Control/src/js2fork', 'symlink_install': False, 'test_result_base': None}
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'lakibeam1' build argument 'cmake_args' from command line to 'None'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'lakibeam1' build argument 'cmake_target' from command line to 'None'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'lakibeam1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'lakibeam1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'lakibeam1' build argument 'cmake_clean_first' from command line to 'False'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'lakibeam1' build argument 'cmake_force_configure' from command line to 'False'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'lakibeam1' build argument 'ament_cmake_args' from command line to 'None'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'lakibeam1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'lakibeam1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.976s] DEBUG:colcon.colcon_core.verb:Building package 'lakibeam1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gavin/AGV_Control/build/lakibeam1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gavin/AGV_Control/install/lakibeam1', 'merge_install': False, 'path': '/home/gavin/AGV_Control/src/Lakibeam_ROS2_Driver-main', 'symlink_install': False, 'test_result_base': None}
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'tf_publisher' build argument 'cmake_args' from command line to 'None'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'tf_publisher' build argument 'cmake_target' from command line to 'None'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'tf_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'tf_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'tf_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'tf_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'tf_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'tf_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'tf_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.978s] DEBUG:colcon.colcon_core.verb:Building package 'tf_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gavin/AGV_Control/build/tf_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gavin/AGV_Control/install/tf_publisher', 'merge_install': False, 'path': '/home/gavin/AGV_Control/src/tf_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.978s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.981s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.981s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gavin/AGV_Control/src/forklift' with build type 'ament_python'
+[0.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('forklift', 'ament_prefix_path')
+[0.989s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/AGV_Control/install/forklift/share/forklift/hook/ament_prefix_path.ps1'
+[0.992s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gavin/AGV_Control/install/forklift/share/forklift/hook/ament_prefix_path.dsv'
+[0.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/AGV_Control/install/forklift/share/forklift/hook/ament_prefix_path.sh'
+[0.996s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.997s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.030s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gavin/AGV_Control/src/js2fork' with build type 'ament_python'
+[1.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('js2fork', 'ament_prefix_path')
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/AGV_Control/install/js2fork/share/js2fork/hook/ament_prefix_path.ps1'
+[1.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gavin/AGV_Control/install/js2fork/share/js2fork/hook/ament_prefix_path.dsv'
+[1.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/AGV_Control/install/js2fork/share/js2fork/hook/ament_prefix_path.sh'
+[1.034s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.034s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.062s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gavin/AGV_Control/src/Lakibeam_ROS2_Driver-main' with build type 'ament_cmake'
+[1.062s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gavin/AGV_Control/src/Lakibeam_ROS2_Driver-main'
+[1.063s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.063s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.090s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gavin/AGV_Control/src/tf_publisher' with build type 'ament_python'
+[1.091s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf_publisher', 'ament_prefix_path')
+[1.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/AGV_Control/install/tf_publisher/share/tf_publisher/hook/ament_prefix_path.ps1'
+[1.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gavin/AGV_Control/install/tf_publisher/share/tf_publisher/hook/ament_prefix_path.dsv'
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/AGV_Control/install/tf_publisher/share/tf_publisher/hook/ament_prefix_path.sh'
+[1.095s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.096s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.845s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gavin/AGV_Control/src/forklift'
+[1.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.571s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gavin/AGV_Control/src/js2fork'
+[2.572s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.572s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gavin/AGV_Control/build/lakibeam1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gavin/AGV_Control/install/tf_publisher:/home/gavin/AGV_Control/install/js2fork:/home/gavin/AGV_Control/install/joystick_ros2:/home/gavin/AGV_Control/install/forklift:/home/gavin/minimec/install/wheeltec_control:/home/gavin/minimec/install/mini_mec_localization:/home/gavin/minimec/src/install/wheeltec_control:/home/gavin/minimec/src/install/mini_mec_localization:/home/gavin/install/ament_uncrustify:/home/gavin/install/tracetools_trace:/home/gavin/install/tracetools_read:/home/gavin/install/rpyutils:/home/gavin/install/rosidl_cli:/home/gavin/install/launch_pytest:/home/gavin/install/launch_testing:/home/gavin/install/launch_yaml:/home/gavin/install/launch_xml:/home/gavin/install/launch:/home/gavin/install/osrf_pycommon:/home/gavin/install/domain_coordinator:/home/gavin/install/ament_xmllint:/home/gavin/install/ament_pyflakes:/home/gavin/install/ament_pycodestyle:/home/gavin/install/ament_pep257:/home/gavin/install/ament_pclint:/home/gavin/install/ament_package:/home/gavin/install/ament_mypy:/home/gavin/install/ament_lint_cmake:/home/gavin/install/ament_flake8:/home/gavin/install/ament_copyright:/home/gavin/install/ament_lint:/home/gavin/install/ament_index_python:/home/gavin/install/ament_cpplint:/home/gavin/install/ament_cppcheck:/home/gavin/install/ament_clang_tidy:/home/gavin/install/ament_clang_format:/opt/ros/humble /usr/bin/cmake --build /home/gavin/AGV_Control/build/lakibeam1 -- -j8 -l8
+[3.330s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gavin/AGV_Control/src/tf_publisher'
+[3.331s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.331s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gavin/AGV_Control/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gavin/AGV_Control/install/tf_publisher:/home/gavin/AGV_Control/install/js2fork:/home/gavin/AGV_Control/install/joystick_ros2:/home/gavin/AGV_Control/install/forklift:/home/gavin/minimec/install/wheeltec_control:/home/gavin/minimec/install/mini_mec_localization:/home/gavin/minimec/src/install/wheeltec_control:/home/gavin/minimec/src/install/mini_mec_localization:/home/gavin/install/ament_uncrustify:/home/gavin/install/tracetools_trace:/home/gavin/install/tracetools_read:/home/gavin/install/rpyutils:/home/gavin/install/rosidl_cli:/home/gavin/install/launch_pytest:/home/gavin/install/launch_testing:/home/gavin/install/launch_yaml:/home/gavin/install/launch_xml:/home/gavin/install/launch:/home/gavin/install/osrf_pycommon:/home/gavin/install/domain_coordinator:/home/gavin/install/ament_xmllint:/home/gavin/install/ament_pyflakes:/home/gavin/install/ament_pycodestyle:/home/gavin/install/ament_pep257:/home/gavin/install/ament_pclint:/home/gavin/install/ament_package:/home/gavin/install/ament_mypy:/home/gavin/install/ament_lint_cmake:/home/gavin/install/ament_flake8:/home/gavin/install/ament_copyright:/home/gavin/install/ament_lint:/home/gavin/install/ament_index_python:/home/gavin/install/ament_cpplint:/home/gavin/install/ament_cppcheck:/home/gavin/install/ament_clang_tidy:/home/gavin/install/ament_clang_format:/opt/ros/humble /usr/bin/cmake --build /home/gavin/AGV_Control/build/lakibeam1 -- -j8 -l8
+[3.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gavin/AGV_Control/build/lakibeam1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gavin/AGV_Control/install/tf_publisher:/home/gavin/AGV_Control/install/js2fork:/home/gavin/AGV_Control/install/joystick_ros2:/home/gavin/AGV_Control/install/forklift:/home/gavin/minimec/install/wheeltec_control:/home/gavin/minimec/install/mini_mec_localization:/home/gavin/minimec/src/install/wheeltec_control:/home/gavin/minimec/src/install/mini_mec_localization:/home/gavin/install/ament_uncrustify:/home/gavin/install/tracetools_trace:/home/gavin/install/tracetools_read:/home/gavin/install/rpyutils:/home/gavin/install/rosidl_cli:/home/gavin/install/launch_pytest:/home/gavin/install/launch_testing:/home/gavin/install/launch_yaml:/home/gavin/install/launch_xml:/home/gavin/install/launch:/home/gavin/install/osrf_pycommon:/home/gavin/install/domain_coordinator:/home/gavin/install/ament_xmllint:/home/gavin/install/ament_pyflakes:/home/gavin/install/ament_pycodestyle:/home/gavin/install/ament_pep257:/home/gavin/install/ament_pclint:/home/gavin/install/ament_package:/home/gavin/install/ament_mypy:/home/gavin/install/ament_lint_cmake:/home/gavin/install/ament_flake8:/home/gavin/install/ament_copyright:/home/gavin/install/ament_lint:/home/gavin/install/ament_index_python:/home/gavin/install/ament_cpplint:/home/gavin/install/ament_cppcheck:/home/gavin/install/ament_clang_tidy:/home/gavin/install/ament_clang_format:/opt/ros/humble /usr/bin/cmake --install /home/gavin/AGV_Control/build/lakibeam1
+[3.583s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lakibeam1)
+[3.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gavin/AGV_Control/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gavin/AGV_Control/install/tf_publisher:/home/gavin/AGV_Control/install/js2fork:/home/gavin/AGV_Control/install/joystick_ros2:/home/gavin/AGV_Control/install/forklift:/home/gavin/minimec/install/wheeltec_control:/home/gavin/minimec/install/mini_mec_localization:/home/gavin/minimec/src/install/wheeltec_control:/home/gavin/minimec/src/install/mini_mec_localization:/home/gavin/install/ament_uncrustify:/home/gavin/install/tracetools_trace:/home/gavin/install/tracetools_read:/home/gavin/install/rpyutils:/home/gavin/install/rosidl_cli:/home/gavin/install/launch_pytest:/home/gavin/install/launch_testing:/home/gavin/install/launch_yaml:/home/gavin/install/launch_xml:/home/gavin/install/launch:/home/gavin/install/osrf_pycommon:/home/gavin/install/domain_coordinator:/home/gavin/install/ament_xmllint:/home/gavin/install/ament_pyflakes:/home/gavin/install/ament_pycodestyle:/home/gavin/install/ament_pep257:/home/gavin/install/ament_pclint:/home/gavin/install/ament_package:/home/gavin/install/ament_mypy:/home/gavin/install/ament_lint_cmake:/home/gavin/install/ament_flake8:/home/gavin/install/ament_copyright:/home/gavin/install/ament_lint:/home/gavin/install/ament_index_python:/home/gavin/install/ament_cpplint:/home/gavin/install/ament_cppcheck:/home/gavin/install/ament_clang_tidy:/home/gavin/install/ament_clang_format:/opt/ros/humble /usr/bin/cmake --install /home/gavin/AGV_Control/build/lakibeam1
+[3.593s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/lakibeam1' for CMake module files
+[3.594s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/lakibeam1' for CMake config files
+[3.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('lakibeam1', 'cmake_prefix_path')
+[3.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/AGV_Control/install/lakibeam1/share/lakibeam1/hook/cmake_prefix_path.ps1'
+[3.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gavin/AGV_Control/install/lakibeam1/share/lakibeam1/hook/cmake_prefix_path.dsv'
+[3.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/AGV_Control/install/lakibeam1/share/lakibeam1/hook/cmake_prefix_path.sh'
+[3.600s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/lakibeam1/lib'
+[3.600s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/lakibeam1/bin'
+[3.600s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/lakibeam1/lib/pkgconfig/lakibeam1.pc'
+[3.601s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/lakibeam1/lib/python3.10/site-packages'
+[3.601s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/lakibeam1/bin'
+[3.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/lakibeam1/share/lakibeam1/package.ps1'
+[3.603s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gavin/AGV_Control/install/lakibeam1/share/lakibeam1/package.dsv'
+[3.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/lakibeam1/share/lakibeam1/package.sh'
+[3.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/lakibeam1/share/lakibeam1/package.bash'
+[3.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/lakibeam1/share/lakibeam1/package.zsh'
+[3.611s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gavin/AGV_Control/install/lakibeam1/share/colcon-core/packages/lakibeam1)
+[3.740s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lakibeam1)
+[3.741s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/lakibeam1' for CMake module files
+[3.743s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/lakibeam1' for CMake config files
+[3.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('lakibeam1', 'cmake_prefix_path')
+[3.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/AGV_Control/install/lakibeam1/share/lakibeam1/hook/cmake_prefix_path.ps1'
+[3.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gavin/AGV_Control/install/lakibeam1/share/lakibeam1/hook/cmake_prefix_path.dsv'
+[3.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/AGV_Control/install/lakibeam1/share/lakibeam1/hook/cmake_prefix_path.sh'
+[3.749s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/lakibeam1/lib'
+[3.750s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/lakibeam1/bin'
+[3.750s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/lakibeam1/lib/pkgconfig/lakibeam1.pc'
+[3.750s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/lakibeam1/lib/python3.10/site-packages'
+[3.751s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/lakibeam1/bin'
+[3.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/lakibeam1/share/lakibeam1/package.ps1'
+[3.753s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gavin/AGV_Control/install/lakibeam1/share/lakibeam1/package.dsv'
+[3.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/lakibeam1/share/lakibeam1/package.sh'
+[3.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/lakibeam1/share/lakibeam1/package.bash'
+[3.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/lakibeam1/share/lakibeam1/package.zsh'
+[3.760s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gavin/AGV_Control/install/lakibeam1/share/colcon-core/packages/lakibeam1)
+[4.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gavin/AGV_Control/src/forklift': PYTHONPATH=/home/gavin/AGV_Control/build/forklift/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/AGV_Control/install/forklift/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/forklift build --build-base /home/gavin/AGV_Control/build/forklift/build install --record /home/gavin/AGV_Control/build/forklift/install.log --single-version-externally-managed install_data
+[4.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gavin/AGV_Control/src/tf_publisher': PYTHONPATH=/home/gavin/AGV_Control/build/tf_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/AGV_Control/install/tf_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_publisher build --build-base /home/gavin/AGV_Control/build/tf_publisher/build install --record /home/gavin/AGV_Control/build/tf_publisher/install.log --single-version-externally-managed install_data
+[4.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gavin/AGV_Control/src/js2fork': PYTHONPATH=/home/gavin/AGV_Control/build/js2fork/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/AGV_Control/install/js2fork/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/js2fork build --build-base /home/gavin/AGV_Control/build/js2fork/build install --record /home/gavin/AGV_Control/build/js2fork/install.log --single-version-externally-managed install_data
+[5.409s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/forklift' for CMake module files
+[5.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gavin/AGV_Control/src/forklift' returned '0': PYTHONPATH=/home/gavin/AGV_Control/build/forklift/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/AGV_Control/install/forklift/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/forklift build --build-base /home/gavin/AGV_Control/build/forklift/build install --record /home/gavin/AGV_Control/build/forklift/install.log --single-version-externally-managed install_data
+[5.413s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/forklift' for CMake config files
+[5.415s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/forklift/lib'
+[5.415s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/forklift/bin'
+[5.415s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/forklift/lib/pkgconfig/forklift.pc'
+[5.416s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/forklift/lib/python3.10/site-packages'
+[5.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('forklift', 'pythonpath')
+[5.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/AGV_Control/install/forklift/share/forklift/hook/pythonpath.ps1'
+[5.419s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gavin/AGV_Control/install/forklift/share/forklift/hook/pythonpath.dsv'
+[5.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/AGV_Control/install/forklift/share/forklift/hook/pythonpath.sh'
+[5.423s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/forklift/bin'
+[5.424s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(forklift)
+[5.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/forklift/share/forklift/package.ps1'
+[5.427s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gavin/AGV_Control/install/forklift/share/forklift/package.dsv'
+[5.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/forklift/share/forklift/package.sh'
+[5.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/forklift/share/forklift/package.bash'
+[5.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/forklift/share/forklift/package.zsh'
+[5.435s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gavin/AGV_Control/install/forklift/share/colcon-core/packages/forklift)
+[5.441s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/tf_publisher' for CMake module files
+[5.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gavin/AGV_Control/src/tf_publisher' returned '0': PYTHONPATH=/home/gavin/AGV_Control/build/tf_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/AGV_Control/install/tf_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_publisher build --build-base /home/gavin/AGV_Control/build/tf_publisher/build install --record /home/gavin/AGV_Control/build/tf_publisher/install.log --single-version-externally-managed install_data
+[5.444s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/tf_publisher' for CMake config files
+[5.446s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/tf_publisher/lib'
+[5.446s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/tf_publisher/bin'
+[5.446s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/tf_publisher/lib/pkgconfig/tf_publisher.pc'
+[5.447s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/tf_publisher/lib/python3.10/site-packages'
+[5.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf_publisher', 'pythonpath')
+[5.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/AGV_Control/install/tf_publisher/share/tf_publisher/hook/pythonpath.ps1'
+[5.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gavin/AGV_Control/install/tf_publisher/share/tf_publisher/hook/pythonpath.dsv'
+[5.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/AGV_Control/install/tf_publisher/share/tf_publisher/hook/pythonpath.sh'
+[5.452s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/tf_publisher/bin'
+[5.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf_publisher)
+[5.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/tf_publisher/share/tf_publisher/package.ps1'
+[5.455s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gavin/AGV_Control/install/tf_publisher/share/tf_publisher/package.dsv'
+[5.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/tf_publisher/share/tf_publisher/package.sh'
+[5.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/tf_publisher/share/tf_publisher/package.bash'
+[5.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/tf_publisher/share/tf_publisher/package.zsh'
+[5.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gavin/AGV_Control/install/tf_publisher/share/colcon-core/packages/tf_publisher)
+[5.463s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/js2fork' for CMake module files
+[5.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gavin/AGV_Control/src/js2fork' returned '0': PYTHONPATH=/home/gavin/AGV_Control/build/js2fork/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/AGV_Control/install/js2fork/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/js2fork build --build-base /home/gavin/AGV_Control/build/js2fork/build install --record /home/gavin/AGV_Control/build/js2fork/install.log --single-version-externally-managed install_data
+[5.466s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/js2fork' for CMake config files
+[5.468s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/js2fork/lib'
+[5.468s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/js2fork/bin'
+[5.468s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/js2fork/lib/pkgconfig/js2fork.pc'
+[5.469s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/js2fork/lib/python3.10/site-packages'
+[5.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('js2fork', 'pythonpath')
+[5.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/AGV_Control/install/js2fork/share/js2fork/hook/pythonpath.ps1'
+[5.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gavin/AGV_Control/install/js2fork/share/js2fork/hook/pythonpath.dsv'
+[5.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/AGV_Control/install/js2fork/share/js2fork/hook/pythonpath.sh'
+[5.474s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/AGV_Control/install/js2fork/bin'
+[5.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(js2fork)
+[5.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/js2fork/share/js2fork/package.ps1'
+[5.477s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gavin/AGV_Control/install/js2fork/share/js2fork/package.dsv'
+[5.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/js2fork/share/js2fork/package.sh'
+[5.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/js2fork/share/js2fork/package.bash'
+[5.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/AGV_Control/install/js2fork/share/js2fork/package.zsh'
+[5.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gavin/AGV_Control/install/js2fork/share/colcon-core/packages/js2fork)
+[5.483s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.485s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.485s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.513s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.514s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.514s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.575s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.576s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gavin/AGV_Control/install/local_setup.ps1'
+[5.581s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gavin/AGV_Control/install/_local_setup_util_ps1.py'
+[5.589s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gavin/AGV_Control/install/setup.ps1'
+[5.606s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gavin/AGV_Control/install/local_setup.sh'
+[5.608s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gavin/AGV_Control/install/_local_setup_util_sh.py'
+[5.610s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gavin/AGV_Control/install/setup.sh'
+[5.627s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gavin/AGV_Control/install/local_setup.bash'
+[5.630s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gavin/AGV_Control/install/setup.bash'
+[5.646s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gavin/AGV_Control/install/local_setup.zsh'
+[5.648s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gavin/AGV_Control/install/setup.zsh'
