@@ -22,7 +22,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'tf_publisher_node = tf_publisher.tf_publisher:main'
+            'tf_publisher_node = tf_publisher.tf_publisher:main',
+            'dynamic_frame_tf2_broadcaster = tf_publisher.dynamic_frame_tf2_broadcaster:main',
+            'fixed_frame_tf2_broadcaster = tf_publisher.fixed_frame_tf2_broadcaster:main'
         ],
     },
 )

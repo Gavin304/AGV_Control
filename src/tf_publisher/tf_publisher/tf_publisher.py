@@ -24,7 +24,7 @@ class TF2Broadcaster(Node):
         t_map_base.child_frame_id = 'base_link'
 
         # Set the translation
-        t_map_base.transform.translation.x = 1.0  # Adjust based on your configuration
+        t_map_base.transform.translation.x = 0.0  # Adjust based on your configuration
         t_map_base.transform.translation.y = 0.0
         t_map_base.transform.translation.z = 0.0
 
