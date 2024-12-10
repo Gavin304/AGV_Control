@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/forklift/forklift.egg-info/PKG-INFO
+writing dependency_links to ../../build/forklift/forklift.egg-info/dependency_links.txt
+writing entry points to ../../build/forklift/forklift.egg-info/entry_points.txt
+writing requirements to ../../build/forklift/forklift.egg-info/requires.txt
+writing top-level names to ../../build/forklift/forklift.egg-info/top_level.txt
+reading manifest file '../../build/forklift/forklift.egg-info/SOURCES.txt'
+writing manifest file '../../build/forklift/forklift.egg-info/SOURCES.txt'
+running build
+running build_py
+copying forklift/mode.py -> /home/gavin/AGV_Control/build/forklift/build/lib/forklift
+copying forklift/forklift.py -> /home/gavin/AGV_Control/build/forklift/build/lib/forklift
+copying forklift/__init__.py -> /home/gavin/AGV_Control/build/forklift/build/lib/forklift
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/gavin/AGV_Control/install/forklift/lib/python3.10/site-packages/forklift-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/forklift/forklift.egg-info to /home/gavin/AGV_Control/install/forklift/lib/python3.10/site-packages/forklift-0.0.0-py3.10.egg-info
+running install_scripts
+Installing forklift script to /home/gavin/AGV_Control/install/forklift/lib/forklift
+writing list of installed files to '/home/gavin/AGV_Control/build/forklift/install.log'

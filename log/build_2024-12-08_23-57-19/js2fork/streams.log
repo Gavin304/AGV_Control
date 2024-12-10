@@ -1,0 +1,21 @@
+[2.841s] Invoking command in '/home/gavin/AGV_Control/src/js2fork': PYTHONPATH=/home/gavin/AGV_Control/build/js2fork/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/AGV_Control/install/js2fork/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/js2fork build --build-base /home/gavin/AGV_Control/build/js2fork/build install --record /home/gavin/AGV_Control/build/js2fork/install.log --single-version-externally-managed install_data
+[3.592s] running egg_info
+[3.594s] writing ../../build/js2fork/js2fork.egg-info/PKG-INFO
+[3.594s] writing dependency_links to ../../build/js2fork/js2fork.egg-info/dependency_links.txt
+[3.595s] writing entry points to ../../build/js2fork/js2fork.egg-info/entry_points.txt
+[3.595s] writing requirements to ../../build/js2fork/js2fork.egg-info/requires.txt
+[3.595s] writing top-level names to ../../build/js2fork/js2fork.egg-info/top_level.txt
+[3.601s] reading manifest file '../../build/js2fork/js2fork.egg-info/SOURCES.txt'
+[3.603s] writing manifest file '../../build/js2fork/js2fork.egg-info/SOURCES.txt'
+[3.604s] running build
+[3.604s] running build_py
+[3.604s] running install
+[3.605s] running install_lib
+[3.610s] running install_data
+[3.610s] running install_egg_info
+[3.615s] removing '/home/gavin/AGV_Control/install/js2fork/lib/python3.10/site-packages/js2fork-0.0.0-py3.10.egg-info' (and everything under it)
+[3.617s] Copying ../../build/js2fork/js2fork.egg-info to /home/gavin/AGV_Control/install/js2fork/lib/python3.10/site-packages/js2fork-0.0.0-py3.10.egg-info
+[3.619s] running install_scripts
+[3.684s] Installing js2fork script to /home/gavin/AGV_Control/install/js2fork/lib/js2fork
+[3.684s] writing list of installed files to '/home/gavin/AGV_Control/build/js2fork/install.log'
+[3.783s] Invoked command in '/home/gavin/AGV_Control/src/js2fork' returned '0': PYTHONPATH=/home/gavin/AGV_Control/build/js2fork/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/AGV_Control/install/js2fork/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/js2fork build --build-base /home/gavin/AGV_Control/build/js2fork/build install --record /home/gavin/AGV_Control/build/js2fork/install.log --single-version-externally-managed install_data

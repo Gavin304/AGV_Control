@@ -1,0 +1,21 @@
+[3.046s] Invoking command in '/home/gavin/AGV_Control/src/forklift': PYTHONPATH=/home/gavin/AGV_Control/build/forklift/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/AGV_Control/install/forklift/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/forklift build --build-base /home/gavin/AGV_Control/build/forklift/build install --record /home/gavin/AGV_Control/build/forklift/install.log --single-version-externally-managed install_data
+[3.778s] running egg_info
+[3.780s] writing ../../build/forklift/forklift.egg-info/PKG-INFO
+[3.781s] writing dependency_links to ../../build/forklift/forklift.egg-info/dependency_links.txt
+[3.782s] writing entry points to ../../build/forklift/forklift.egg-info/entry_points.txt
+[3.783s] writing requirements to ../../build/forklift/forklift.egg-info/requires.txt
+[3.783s] writing top-level names to ../../build/forklift/forklift.egg-info/top_level.txt
+[3.788s] reading manifest file '../../build/forklift/forklift.egg-info/SOURCES.txt'
+[3.790s] writing manifest file '../../build/forklift/forklift.egg-info/SOURCES.txt'
+[3.791s] running build
+[3.791s] running build_py
+[3.792s] running install
+[3.793s] running install_lib
+[3.797s] running install_data
+[3.797s] running install_egg_info
+[3.803s] removing '/home/gavin/AGV_Control/install/forklift/lib/python3.10/site-packages/forklift-0.0.0-py3.10.egg-info' (and everything under it)
+[3.804s] Copying ../../build/forklift/forklift.egg-info to /home/gavin/AGV_Control/install/forklift/lib/python3.10/site-packages/forklift-0.0.0-py3.10.egg-info
+[3.806s] running install_scripts
+[3.872s] Installing forklift script to /home/gavin/AGV_Control/install/forklift/lib/forklift
+[3.872s] writing list of installed files to '/home/gavin/AGV_Control/build/forklift/install.log'
+[3.968s] Invoked command in '/home/gavin/AGV_Control/src/forklift' returned '0': PYTHONPATH=/home/gavin/AGV_Control/build/forklift/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/AGV_Control/install/forklift/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/forklift build --build-base /home/gavin/AGV_Control/build/forklift/build install --record /home/gavin/AGV_Control/build/forklift/install.log --single-version-externally-managed install_data
