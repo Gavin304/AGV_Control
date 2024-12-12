@@ -2,5 +2,5 @@
 build/
 log/
 install/
-joystick_ros2/
-joystick_drivers/
+src/joystick_ros2/
+src/joystick_drivers/
