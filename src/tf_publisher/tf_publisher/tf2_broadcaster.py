@@ -54,7 +54,7 @@ class AGVTFBroadcaster(Node):
         # Subscribe to cmd_vel topic
         self.cmd_vel_subscription_ = self.create_subscription(
             Twist,
-            "/cmd_vel",
+            "/cmd_vel_joy",
             self.cmdVelCallback,
             10
         )

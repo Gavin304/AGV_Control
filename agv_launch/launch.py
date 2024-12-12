@@ -22,15 +22,16 @@ def generate_launch_description():
             get_package_share_directory('joystick_ros2'), 'launch'),
             '/joystick_ros2_launch.py']),
     )
-    tf_publisher_node = IncludeLaunchDescription(
+    tf2_broadcaster_node = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([os.path.join(
             get_package_share_directory('tf_publisher'), 'launch'),
-            '/tf_publisher.launch.py']),
+            '/tf2_broadcaster_launch.py']),
     )
+    
     
     return LaunchDescription([
         forklift_node,
         js2fork_node,
         joystick_node,
-        tf_publisher_node
+        tf2_broadcaster_node,
     ])
