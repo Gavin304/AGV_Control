@@ -1,17 +1,18 @@
-from setuptools import setup
-from glob import glob
+from setuptools import find_packages, setup
 import os
+from glob import glob
 
 package_name = 'tf_publisher'
 
 setup(
     name=package_name,
     version='0.0.0',
-    packages=[package_name],
+    packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
-         ['resource/' + package_name]),
+            ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*launch.py'))),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -22,9 +23,6 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'tf_publisher_node = tf_publisher.tf_publisher:main',
-            'dynamic_frame_tf2_broadcaster = tf_publisher.dynamic_frame_tf2_broadcaster:main',
-            'fixed_frame_tf2_broadcaster = tf_publisher.fixed_frame_tf2_broadcaster:main',
             'tf2_broadcaster = tf_publisher.tf2_broadcaster:main'
         ],
     },

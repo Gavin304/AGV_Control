@@ -1,6 +1,0 @@
-source;share/forklift/hook/pythonpath.ps1
-source;share/forklift/hook/pythonpath.dsv
-source;share/forklift/hook/pythonpath.sh
-source;share/forklift/hook/ament_prefix_path.ps1
-source;share/forklift/hook/ament_prefix_path.dsv
-source;share/forklift/hook/ament_prefix_path.sh

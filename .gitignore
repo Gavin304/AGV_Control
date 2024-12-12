@@ -1,0 +1,6 @@
+#Ignore all files in this directory
+build/
+log/
+install/
+joystick_ros2/
+joystick_drivers/

@@ -1,3 +1,0 @@
-[console_scripts]
-forklift = forklift.forklift:main
-
