@@ -55,7 +55,7 @@ class ForkliftSubscriber(Node):
         self._cmd_vel_sub = self.create_subscription(
             Twist,
             'cmd_vel',
-            self.cmd_vel_callback,
+            self.cmd_vel_callback, #Changed This to the joy for easy testing
             10
         )
         self._cmd_vel_sub
@@ -181,23 +181,17 @@ class ForkliftSubscriber(Node):
                 self.pub_control_mode.publish(Int8(data=6))
 
     def cmd_vel_callback(self, msg):
-        if self.current_state == 1 and self.navigation_mode == True: #changed from ==0 and ==True
-            if math.isnan(msg.linear.x) or math.isnan(msg.linear.y) or math.isnan(msg.angular.z):
-                self.vx = 0
-                self.vy = 0
-                self.w = 0
-            else:
+        if self.current_state == 1:
                 self.vx = int(msg.linear.x * 1000)
                 self.vy = int(msg.linear.y * 1000)
                 self.w = int(msg.angular.z * 180 / math.pi*10)
-                self.acc = int(600)
-                self._logger.info("Velocity keyboard Command vx = {}, vy = {}, w = {}, current_state = {}, navigation_mode = {}".format(self.vx, self.vy, self.w,self.current_state, self.navigation_mode))
+                #self._logger.info("Velocity keyboard Command vx = {}, vy = {}, w = {}, current_state = {}, navigation_mode = {}".format(self.vx, self.vy, self.w,self.current_state, self.navigation_mode))
         else:
             temp = Twist()
             temp.linear.x = msg.linear.x
             temp.linear.y = msg.linear.y
             temp.angular.z = msg.angular.z
-            self._logger.info("Velocity keyboard Command Else vx = {}, vy = {}, w = {}, current_state = {}, navigation_mode = {}".format(self.vx, self.vy, self.w,self.current_state, self.navigation_mode))
+            #self._logger.info("Velocity keyboard Command Else vx = {}, vy = {}, w = {}, current_state = {}, navigation_mode = {}".format(self.vx, self.vy, self.w,self.current_state, self.navigation_mode))
 
     def control_mode_callback(self, msg):
         ## Callback function for the control mode
@@ -227,9 +221,6 @@ class ForkliftSubscriber(Node):
             elif msg.data == 6:
                 self.control_code = 0x06
                 self.get_logger().info("Control mode: 全方位")
-                self.vx = 0
-                self.vy = 0
-                self.w = 0
             elif msg.data == 7:
                 self.control_code = 0x07
                 self.get_logger().info("Control mode: y方向ackerman")

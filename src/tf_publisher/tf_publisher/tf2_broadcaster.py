@@ -52,18 +52,25 @@ class AGVTFBroadcaster(Node):
         self.timer_ = self.create_timer(0.1, self.timerCallback)
 
         # Subscribe to cmd_vel topic
-        self.cmd_vel_subscription_ = self.create_subscription(
+        self.cmd_vel_joy_subscription_ = self.create_subscription(
             Twist,
             "/cmd_vel_joy",
             self.cmdVelCallback,
             10
         )
+        self.cmd_vel_joy_subscription_ = self.create_subscription(
+            Twist,
+            "/cmd_vel",
+            self.cmdVelCallback,
+            10
+        )
+        
 
         # Service Server
         self.get_transform_srv_ = self.create_service(GetTransform, "get_transform", self.getTransformCallback)
 
     def cmdVelCallback(self, msg: Twist):
-        """Callback to update linear and angular velocities from cmd_vel."""
+        """Callback to update linear and angular velocities from cmd_vel & cmd_vel_joy."""
         self.linear_velocity_x_ = msg.linear.x
         self.linear_velocity_y_ = msg.linear.y
         self.angular_velocity_z_ = msg.angular.z

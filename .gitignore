@@ -4,3 +4,4 @@ log/
 install/
 src/joystick_ros2/
 src/joystick_drivers/
+map/
