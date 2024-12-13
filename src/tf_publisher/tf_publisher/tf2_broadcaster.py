@@ -52,27 +52,41 @@ class AGVTFBroadcaster(Node):
         self.timer_ = self.create_timer(0.1, self.timerCallback)
 
         # Subscribe to cmd_vel topic
-        self.cmd_vel_subscription_ = self.create_subscription(
+        self.cmd_vel_joy_subscription_ = self.create_subscription(
             Twist,
             "/cmd_vel_joy",
+            self.cmdVel_joy_Callback,
+            10
+        )
+        self.cmd_vel_joy_subscription_ = self.create_subscription(
+            Twist,
+            "/cmd_vel",
             self.cmdVelCallback,
             10
         )
+        
 
         # Service Server
         self.get_transform_srv_ = self.create_service(GetTransform, "get_transform", self.getTransformCallback)
-
+    def cmdVel_joy_Callback(self, msg: Twist):
+        """Callback to update linear and angular velocities from cmd_vel & cmd_vel_joy."""
+        self.linear_velocity_x_joy_ = msg.linear.x
+        self.linear_velocity_y_joy_ = msg.linear.y
+        self.angular_velocity_z_joy_ = msg.angular.z
     def cmdVelCallback(self, msg: Twist):
-        """Callback to update linear and angular velocities from cmd_vel."""
-        self.linear_velocity_x_ = msg.linear.x
-        self.linear_velocity_y_ = msg.linear.y
-        self.angular_velocity_z_ = msg.angular.z
+        """Callback to update linear and angular velocities from cmd_vel & cmd_vel_joy."""
+        self.linear_velocity_x_command_ = msg.linear.x
+        self.linear_velocity_y_command_ = msg.linear.y
+        self.angular_velocity_z_command_ = msg.angular.z
 
     def timerCallback(self):
         """Timer callback to update the dynamic transformation."""
         current_time = self.get_clock().now()
         dt = (current_time - self.prev_time).nanoseconds / 1e9
         self.prev_time = current_time
+        self.linear_velocity_x_ = self.linear_velocity_x_command_ + self.linear_velocity_x_joy_
+        self.linear_velocity_y_ = self.linear_velocity_y_command_ + self.linear_velocity_y_joy_
+        self.angular_velocity_z_ = self.angular_velocity_z_command_ + self.angular_velocity_z_joy_
 
         # Update pose based on velocities
         self.last_theta_ += self.angular_velocity_z_ * dt
