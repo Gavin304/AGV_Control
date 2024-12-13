@@ -47,6 +47,13 @@ class AGVTFBroadcaster(Node):
         self.linear_velocity_x_ = 0.0
         self.linear_velocity_y_ = 0.0
         self.angular_velocity_z_ = 0.0
+        self.linear_velocity_x_command_ = 0.0
+        self.linear_velocity_y_command_ = 0.0
+        self.angular_velocity_z_command_ = 0.0
+        self.linear_velocity_x_joy_ = 0.0
+        self.linear_velocity_y_joy_ = 0.0
+        self.angular_velocity_z_joy_ = 0.0
+        
 
         # Timer
         self.timer_ = self.create_timer(0.1, self.timerCallback)
