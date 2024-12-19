@@ -1,14 +1,16 @@
-matlab -softwareopengl
-ros2 launch slam_toolbox onli0params_file:=~/ros2_ws/config/my_slam_params.yaml	
+Needed Slam Toolbox
+Nav2 toolbox
+Ros2 Humble
 
-
+To run Install all the dependencies
+then set the config file for the ros toolbox
 cd /opt/ros/humble/share/slam_toolbox/config/
 sudo nano mapper_params_online_async.yaml 
 
-
-
+launch agv_controller
  ros2 launch agv_launch/launch.py 
+ ros2 run lakibeam1 lakibeam1_scan_node 
 
-ros2 run js2fork js2fork 
-ros2 run forklift forklift 
-ros2 run joystick_ros2 joystick_ros2
+
+run slam Program 
+run nav2 program
