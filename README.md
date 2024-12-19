@@ -1,4 +1,5 @@
-Needed Slam Toolbox
+Package requirements:
+Slam Toolbox
 Nav2 toolbox
 Ros2 Humble
 
