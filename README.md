@@ -10,7 +10,7 @@ sudo nano mapper_params_online_async.yaml
 
 launch agv_controller
  ros2 launch agv_launch/launch.py 
- ros2 run lakibeam1 lakibeam1_scan_node 
+ ros2 launch lakibeam1 lakibeam1_scan_launch.py
 
 
 run slam Program 
