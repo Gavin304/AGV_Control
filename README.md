@@ -35,3 +35,9 @@ Ensure you have the following installed:
    Launch the Nav2 navigation stack for path planning and control.
 
 ---
+## Video Example
+
+
+https://github.com/user-attachments/assets/35c5d5d6-f3e1-4459-9b35-9dd9f7ddce0b
+
+
