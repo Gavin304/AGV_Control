@@ -4,7 +4,7 @@ This project leverages ROS 2 (Humble), Slam Toolbox, and Nav2 for autonomous nav
 
 ## Prerequisites
 Ensure you have the following installed:
-- Slam Toolbox: [https://navigation.ros.org/getting_started/index.html#slam-toolbox](https://roboticsbackend.com/ros2-nav2-generate-a-map-with-slam_toolbox/)
+- Slam Toolbox: https://roboticsbackend.com/ros2-nav2-generate-a-map-with-slam_toolbox/
 - Nav2 Toolbox: https://navigation.ros.org/
 - ROS 2 Humble: https://docs.ros.org/en/humble/index.html
 
